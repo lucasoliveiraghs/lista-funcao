@@ -5,6 +5,8 @@ entrada: array e os elementos dentro do array
 processamento: somar os valores dentro do array
 saída: exibir o valor da soma
 
+A questão foi mais fácil do que a última
+utilizei a mesma lógica de separar entrada, processamento e saída em funções.
 */
 
 function receberarray(){
