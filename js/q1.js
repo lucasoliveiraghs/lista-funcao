@@ -6,7 +6,9 @@ entradas: Base e altura.
 Processamento: clacular a área.
 saída: resultado da área.
 
-Para resolver a atividade eu recebi dois valores multipliquei dentro da função e peguei o resultado, retornei e voltei*/
+Para resolver a atividade eu recebi dois valores multipliquei dentro da função e peguei o resultado, retornei e voltei
+
+Achei relativamente fácil, devido a simplicidade das operações*/
 
 function calcularAreaRetangulo (base, altura){
     let area = base * altura;
