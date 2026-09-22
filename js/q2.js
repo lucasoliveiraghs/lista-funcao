@@ -5,6 +5,10 @@ entrada: receber um número de parâmetro.
 processamento: verificar se é par ou ímpar.
 Saída: Se é par ou ímpar
 
+criei funções para entrada, saída e processamento.
+
+dificuldade: mais difícil que a primeira por uso de várias funções, porém, relativamente fácil.
+
 */
 
 function ehpar (imparoupar){
