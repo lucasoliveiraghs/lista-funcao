@@ -59,16 +59,18 @@ function executarAnalise(){
         }
     }
     let numero = contarAprovados(alunos)
-    console.log("O numero de alunos aprovados foi " + numero)
+    console.log(`Foram ${numero.length} alunos aprovados, sendo eles: ${numero}`)
 }
 function contarAprovados(listaAlunos){
     let estado = 0
-    let soma = 0
+    let name = ""
+    let soma = []
    for(const item in listaAlunos){
     let notas = listaAlunos[item].nota
      estado = verificarAprovacao(notas)
       if(estado){
-        soma += 1
+        name = listaAlunos[item].nome
+        soma.push(name)
       }
    }
    return soma
